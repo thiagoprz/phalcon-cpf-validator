@@ -1,0 +1,24 @@
+{
+    "name": "thiagoprz/phalcon-cpf-validator",
+    "description": "Phalcon 3.4 CPF Validator",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thiago Przyczynski",
+            "email": "przyczynski@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/"
+        ],
+        "psr-4": {
+            "Thiagoprz\\CpfValidator\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.3"
+    }
+}
